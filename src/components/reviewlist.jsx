@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ReviewiItem from "./reviewitem";
 import Reviewscoreboard from "./reviewscoreboard";
+import '../styles/reviewlist.css'
 
 
 const ReviewList = () => {
@@ -56,7 +57,10 @@ const ReviewList = () => {
   //setup scoreboard
 
   return (
-    <div>
+    <div className="review-list">
+      <form action="">
+        <input className="input-url" type="text" placeholder="Enter url"/>
+      </form>
       {reviewHtmlArray}
       <Reviewscoreboard key={1000} count={5} average={39.76} percentage={79} />
     </div>
