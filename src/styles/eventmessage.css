@@ -1,0 +1,13 @@
+.eventmessage{
+    min-width: 50%;
+    max-width: 80%;   
+    margin: 0.5rem auto;
+    background-color: rgb(46, 99, 160);
+    text-align: center;
+    opacity: 0.2;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
