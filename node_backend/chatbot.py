@@ -58,7 +58,7 @@ def ask_ai(qna):
     sys.stdout.flush()
     return(response.response)
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 
 
